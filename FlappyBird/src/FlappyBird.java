@@ -81,10 +81,10 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener{
         addKeyListener(this);
 
         //load images
-        backgroundImage = new ImageIcon(getClass().getResource("./flappybirdbg.png")).getImage();
-        birdImage = new ImageIcon(getClass().getResource("./flappybird.png")).getImage();
-        topPipeImage = new ImageIcon(getClass().getResource("./toppipe.png")).getImage();
-        bottomPipeImage = new ImageIcon(getClass().getResource("./bottompipe.png")).getImage();
+        backgroundImage = new ImageIcon(getClass().getResource("/flappybirdbg.png")).getImage();
+        birdImage = new ImageIcon(getClass().getResource("/flappybird.png")).getImage();
+        topPipeImage = new ImageIcon(getClass().getResource("/toppipe.png")).getImage();
+        bottomPipeImage = new ImageIcon(getClass().getResource("/bottompipe.png")).getImage();
 
         //bird
         bird = new Bird(birdImage);
